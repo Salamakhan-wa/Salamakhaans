@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Facilities</title>
+     <!-- Navigation Bar -->
+  <nav class="navbar">
+    <a href="index.html" class="active">Home</a>
+    <a href="courses.html">Courses</a>
+    <a href="gallery.html">Gallery</a>
+    <a href="facilities.html">Facilities</a>
+    <a href="contact.html">Contact</a>
+  </nav>
+</head>
+<body>
+      <!-- Institute Name -->
+  <header class="hero">
+    <h1>The Eagle Institute Charbagh Swat</h1>
+    <p>Our Modern Facilities</p>
+  </header>
+
+  <!-- Facilities Section -->
+  <main>
+    <section class="facilities">
+      <div class="facility-card">
+        <h2>Boys' Classes</h2>
+        <p>Separate classrooms for boys with modern furniture and a comfortable learning environment.</p>
+      </div>
+      <div class="facility-card">
+        <h2>Girls' Classes</h2>
+        <p>Dedicated classrooms for girls ensuring privacy, safety, and a focused study atmosphere.</p>
+      </div>
+      <div class="facility-card">
+        <h2>Computer Labs</h2>
+        <p>Multiple computer labs equipped with the latest systems, available separately for boys and girls.</p>
+      </div>
+      <div class="facility-card">
+        <h2>Library</h2>
+        <p>A well-stocked library with academic books, reference materials, and digital resources.</p>
+      </div>
+      <div class="facility-card">
+        <h2>Seminar Hall</h2>
+        <p>A spacious seminar hall for workshops, presentations, and guest lectures.</p>
+      </div>
+      <div class="facility-card">
+        <h2>Study Environment</h2>
+        <p>Peaceful and disciplined environment to help students focus on their education.</p>
+      </div>
+    </section>
+  </main>
+<style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', Arial, sans-serif;
+      background: #f4f4f4;
+      color: #333;
+    }
+    /* Navigation Bar */
+.navbar {
+  background: #004080;
+  padding: 15px;
+  text-align: center;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.2);
+  animation: slideDown 1s ease-in-out;
+}
+
+.navbar a {
+  color: white;
+  margin: 0 20px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: color 0.3s ease, transform 0.3s ease;
+  font-size: 1.2em;
+}
+
+.navbar a:hover {
+  color: #ffcc00;
+  transform: scale(1.1);
+}
+
+.navbar .active {
+  border-bottom: 2px solid #ffcc00;
+}
+
+    /* Hero Section */
+    .hero {
+      background: linear-gradient(120deg, #004080, #0066cc);
+      color: white;
+      text-align: center;
+      padding: 50px 20px;
+      animation: fadeIn 2s ease-in-out;
+    }
+
+    .hero h1 {
+      font-size: 2.5em;
+      margin: 0;
+      animation: glowText 3s infinite alternate;
+    }
+
+    .hero p {
+      font-size: 1.3em;
+      margin-top: 10px;
+    }
+
+    /* Facilities Section */
+    .facilities {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 20px;
+      padding: 40px;
+    }
+
+    .facility-card {
+      background: #ffffff;
+      border-radius: 12px;
+      padding: 20px;
+      box-shadow: 0 6px 12px rgba(0,0,0,0.25);
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+      animation: fadeInUp 1.5s ease-in-out;
+    }
+
+    .facility-card h2 {
+      color: #004080;
+      margin-bottom: 10px;
+      font-size: 1.6em;
+    }
+
+    .facility-card p {
+      font-size: 1.1em;
+      color: #555;
+      line-height: 1.5;
+    }
+
+    .facility-card:hover {
+      transform: translateY(-8px) scale(1.03);
+      box-shadow: 0 10px 20px rgba(0,0,0,0.3);
+    }
+
+    /* Animations */
+    @keyframes fadeIn {
+      from {opacity: 0;}
+      to {opacity: 1;}
+    }
+
+    @keyframes fadeInUp {
+      from {transform: translateY(30px); opacity: 0;}
+      to {transform: translateY(0); opacity: 1;}
+    }
+
+    @keyframes glowText {
+      from {text-shadow: 0 0 10px #ffcc00;}
+      to {text-shadow: 0 0 20px #ffffff;}
+    }
+
+</style>
+</body>
+</html>

@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tuitions</title>
+</head>
+<body>
+  <!-- Hero Section -->
+  <header class="hero">
+    <h1>The Eagle Institute Charbagh Swat</h1>
+    <p>Personalized Tuitions for Classes 6th to 12th</p>
+  </header>
+
+  <!-- Tuition Detail Section -->
+  <div class="tuition-detail">
+    <h2>Overview</h2>
+    <p>
+      The Eagle Institute offers tuition classes for students from Class 6 to Class 12. 
+      Our goal is to provide personalized guidance, strengthen concepts, and prepare students 
+      for board exams with confidence.
+    </p>
+
+    <h2>Subjects Offered</h2>
+    <ul>
+      <li>Mathematics (Algebra, Geometry, Trigonometry)</li>
+      <li>Science (Physics, Chemistry, Biology)</li>
+      <li>Computer Studies</li>
+      <li>English Language & Literature</li>
+      <li>Urdu & Islamiat</li>
+    </ul>
+
+    <h2>Benefits of Our Tuitions</h2>
+    <ul>
+      <li>Separate classes for boys and girls</li>
+      <li>Small batch sizes for personalized attention</li>
+      <li>Experienced teachers with subject expertise</li>
+      <li>Regular tests and progress reports</li>
+      <li>Preparation for board exams and competitive tests</li>
+      <li>Focus on concept clarity and problem-solving skills</li>
+    </ul>
+
+    <h2>Eligibility</h2>
+    <p>Open to all students from Class 6 to Class 12.</p>
+  </div>
+<style>
+   body {
+      margin: 0;
+      font-family: 'Segoe UI', Arial, sans-serif;
+      background: #fdfdfd;
+      color: #333;
+    }
+
+    /* Hero Section */
+    .hero {
+      background: linear-gradient(135deg, #006400, #32cd32);
+      color: white;
+      text-align: center;
+      padding: 60px 20px;
+      animation: fadeIn 1.5s ease-in-out;
+    }
+
+    .hero h1 {
+      font-size: 3em; /* institute name */
+      margin: 0;
+    }
+
+    .hero p {
+      font-size: 1.6em; /* Tuitions line */
+      margin-top: 12px;
+      animation: bounceText 2s infinite; /* animation only on Tuitions line */
+    }
+
+    /* Tuition Detail Section */
+    .tuition-detail {
+      max-width: 900px;
+      margin: 40px auto;
+      background: #ffffff;
+      padding: 30px;
+      border-radius: 12px;
+      box-shadow: 0 8px 16px rgba(0,0,0,0.25);
+      animation: slideRight 1.2s ease-in-out;
+    }
+
+    .tuition-detail h2 {
+      color: #006400;
+      margin-top: 25px;
+      font-size: 1.9em;
+      animation: fadeInUp 1.2s ease-in-out;
+    }
+
+    .tuition-detail p {
+      font-size: 1.2em;
+      line-height: 1.6;
+      color: #444;
+    }
+
+    .tuition-detail ul {
+      margin: 15px 0;
+      padding-left: 20px;
+    }
+
+    .tuition-detail ul li {
+      font-size: 1.1em;
+      margin-bottom: 8px;
+      color: #333;
+      animation: fadeInUp 1.5s ease-in-out;
+    }
+
+    /* Smart Animations */
+    @keyframes fadeIn {
+      from {opacity: 0;}
+      to {opacity: 1;}
+    }
+
+    @keyframes fadeInUp {
+      from {transform: translateY(20px); opacity: 0;}
+      to {transform: translateY(0); opacity: 1;}
+    }
+
+    @keyframes slideRight {
+      from {transform: translateX(-40px); opacity: 0;}
+      to {transform: translateX(0); opacity: 1;}
+    }
+
+    @keyframes bounceText {
+      0%, 100% {transform: translateY(0);}
+      50% {transform: translateY(-10px);}
+    }
+</style>
+</body>
+</html>
